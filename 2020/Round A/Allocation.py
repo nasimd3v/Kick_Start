@@ -8,7 +8,7 @@ def solve(case,have , h_list):
 		if house > avl:
 			break
 		else:
-			ans+= 1nn
+			ans+= 1
 			avl -= house	
 	print("Case #{0}: {1}".format(case, ans))
 			
